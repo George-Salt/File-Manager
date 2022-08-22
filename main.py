@@ -65,7 +65,7 @@ def make_dirs():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Программа распределяет файлы по папкам по их типу."
+        description="Программа распределяет файлы по их типу."
     )
     parser.add_argument("--original_dir", type=str, help="Папка, из которой брать файлы.", default="Хлам")
     args = parser.parse_args()
